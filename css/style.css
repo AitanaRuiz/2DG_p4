@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        :root{
+            --rosa: #C980B0;
+            --veig: #DDD8A9;
+        }
+        body{
+            font-size: 5px;
+        }
+        header, nav, main, footer{
+            padding: 0 200px;
+        }
+        /*HEADER*/
+        header{
+            font-size: 0.6cm;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Fuzzy Bubbles', cursive;
+            background-color: var(--veig);
+            color: white;
+            height: 8vh;        
+        }
+        h1{
+            text-align: center;
+            font-weight: 900;
+            font-family: 'Akshar', sans-serif;
+        }
+        h2{
+            text-align: center;
+            font-weight: 100;
+            font-family: 'Fuzzy Bubbles', cursive;
+        }
+        /*NAV*/
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            background-color: var(--rosa);
+            height: 17vh;
+            font-family: 'Akshar', sans-serif;
+        }
+        nav img {
+            width: 80px;
+            height: 80px;
+        }
+        nav a{
+            font-size: 0.60cm;
+            text-decoration: none;
+            color: black;
+            margin:0 10px 0 0;
+            padding:0 10px 0 0;
+            font-family: 'Akshar', sans-serif;
+        }
+        /*MAIN*/
+        main{
+            font-size: 5em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--rosa);
+            height: 58vh;
+            font-family: 'Akshar', sans-serif;
+            
+        }
+         /*FOOTER*/
+         footer{
+            font-size: 0.5cm;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 1cm;
+            background-color: var(--veig);
+            height: 17vh;
+            font-family: 'Fuzzy Bubbles', cursive;
+        }
